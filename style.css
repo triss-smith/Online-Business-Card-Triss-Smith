@@ -1,4 +1,4 @@
 main {
   background-image: url("images/background-image.jpg");
-  bacground-size: auto;
+  bacground-size: cover;
 }
