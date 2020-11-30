@@ -14,9 +14,19 @@ body {
   background-size: cover;
 }
 
+article, div, section {
+  text-align:center;
+}
+
 a {
   font-size: 20px;
   padding-top: 50px;
+  padding-left: 50px;
+}
+
+.padding-on-top {
+  padding: 200px
+
 }
 
 a:link {color: white;}
