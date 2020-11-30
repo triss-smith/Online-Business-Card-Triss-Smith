@@ -1,10 +1,11 @@
+/*Sets the style for header elements*/
 header{
   text-align: center;
   font-size: 30px;
   border-width: 500px;
   padding-top: 30px;
 }
-
+/*sets the background image for the body, along with fixing its position for a nice parallax scrolling effect.*/
 body {
   background-image: url("images/background-landscape.jpg");
   background-attachment: fixed;
@@ -12,80 +13,66 @@ body {
   background-repeat: no-repeat;
 
 }
-
+/*sets a uniform text color across all containers*/
 header,article, div, section, footer {
   text-align:center;
   color: white;
 }
-
+/*unifies the font of all elements, except h1. I just like Roboto as the header font*/
 h2,h3,p,ul,a {
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
-
+/*sets header font*/
 h1 {
   font-family: Roboto, sans-serif;
 }
-
+/*sets font size for h2*/
 h2 {
   font-size: 50px;
 }
-
+/*sets font size for h3*/
 h3{
   font-size:40px;
 }
-
+/*sets font size for p, ul, and a elements*/
 p,ul,a{
   font-size: 23px;
 }
-
+/*styles the list item bullets to be inside with their content*/
 ul {
   list-style-position: inside;
 }
-
+/*this sets a special set of padding and font size for the navigation links*/
 nav a {
   font-size: 30px;
   padding: 50px;
   padding-left: 50px;
   padding-right: 50px;
 }
-
+/*this sets the horizontal border to none and changes the width of the ruler*/
 hr{
   border: none;
   border-top: 10px;
 
 }
-
+/*this class sets a stylized padding setting for section headlines*/
 .padding-on-top {
   padding-top: 200px;
   padding-bottom: 100px;
 
 }
-
-.padding-bottom-of-element {
-  padding-bottom: 100px;
-}
-
+/*this sets padding on either side of element to 200 px. Helped for formatting of ul*/
 .padding-right-and-left {
   padding-left: 200px;
   padding-right: 200px;
 }
-
+/*This sets up a card like background for containers with opacity at 75% to still be able to see landscape image and rounds edges*/
 .dark-background {
   background-color: black;
   opacity: 0.75;
   border-radius: 25px;
 }
-
-/*.parallax {
-  background-image: "images/filler-image-1.jpg";
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  height: 200px;
-  background-image: "images/filler-image-1.jpg";
-}*/
-
+/*these pseudo classes style the link colors when a variety of actions is performed on them*/
 a:link {color: white;}
 a:visited {color: lightgray}
 a:hover {color: purple}
