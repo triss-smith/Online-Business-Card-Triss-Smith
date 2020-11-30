@@ -1,7 +1,12 @@
+header{
+  background-color: black;
+}
+
 main {
   background-image: url("images/background-image.jpg");
   bacground-size: cover;
 }
+
 a:link {color: white;}
 a:visited {color: lightgray}
 a:hover {color: purple}
