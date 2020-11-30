@@ -1,9 +1,12 @@
-header, main{
+header{
   background-color: black;
   text-align: center;
   color: white;
   font-size: 14px;
   font-family: Roboto, sans-serif;
+  border-radius: 25px;
+  border-width: 500px;
+  
 }
 
 body {
