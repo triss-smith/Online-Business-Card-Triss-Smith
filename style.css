@@ -38,7 +38,7 @@ h3{
 p,ul,a{
   font-size: 23px;
 }
-/*styles the list item bullets to be inside with their content*/
+/*styles the list item bullets to be inside with their content and centers list*/
 ul {
   list-style-position: inside;
   text-align: left;
@@ -58,6 +58,7 @@ hr{
   border-top: 10px;
 
 }
+/*styles img tags*/
 img {
   height: 500px;
   padding-top: 15px;
@@ -80,10 +81,6 @@ img {
   background-color: black;
   opacity: 0.75;
   border-radius: 25px;
-}
-.margins {
-  margin-left: 200px;
-  margin-right: 200px;
 }
 /*these pseudo classes style the link colors when a variety of actions is performed on them*/
 a:link {color: white;}
