@@ -6,12 +6,17 @@ header{
   font-family: Roboto, sans-serif;
   border-radius: 25px;
   border-width: 500px;
-  
+
 }
 
 body {
   background-image: url("images/background-image.jpg");
   background-size: cover;
+}
+
+a {
+  font-size: 20px;
+  padding-top: 50px;
 }
 
 a:link {color: white;}
