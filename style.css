@@ -41,6 +41,9 @@ p,ul,a{
 /*styles the list item bullets to be inside with their content*/
 ul {
   list-style-position: inside;
+  text-align: left;
+  width: 212px;
+  margin: 0 auto;
 }
 /*this sets a special set of padding and font size for the navigation links*/
 nav a {
@@ -71,6 +74,10 @@ hr{
   background-color: black;
   opacity: 0.75;
   border-radius: 25px;
+}
+.margins {
+  margin-left: 200px;
+  margin-right: 200px;
 }
 /*these pseudo classes style the link colors when a variety of actions is performed on them*/
 a:link {color: white;}
