@@ -58,6 +58,12 @@ hr{
   border-top: 10px;
 
 }
+img {
+  height: 500px;
+  padding-top: 15px;
+  padding-bottom: 50px;
+  border-radius: 150px;
+}
 /*this class sets a stylized padding setting for section headlines*/
 .padding-on-top {
   padding-top: 200px;
