@@ -19,7 +19,7 @@ header,article, div, section, footer {
   color: white;
 }
 /*unifies the font of all elements, except h1. I just like Roboto as the header font*/
-h2,h3,p,ul,a {
+h2,h3,p,ul,a,ol {
   font-family: "Century Gothic", CenturyGothic, Geneva, AppleGothic, sans-serif;
 }
 /*sets header font*/
@@ -35,11 +35,11 @@ h3{
   font-size:40px;
 }
 /*sets font size for p, ul, and a elements*/
-p,ul,a{
+p,ul,a,ol{
   font-size: 23px;
 }
 /*styles the list item bullets to be inside with their content and centers list*/
-ul {
+ul, ol {
   list-style-position: inside;
   text-align: left;
   width: 212px;
