@@ -35,7 +35,7 @@ h3{
   font-size:40px;
 }
 /*sets font size for p, ul, and a elements*/
-p,ul,a,ol{
+p,ul,a,{
   font-size: 23px;
 }
 /*styles the list item bullets to be inside with their content and centers list*/
